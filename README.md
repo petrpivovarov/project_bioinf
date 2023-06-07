@@ -15,6 +15,7 @@ H3K27ac.
 [1] Carcamo, Saul, et al. "Altered BAF occupancy and transcription factor dynamics in PBAF-deficient melanoma." Cell reports 39.1 (2022): 110637
 
 [2] Raab, Jesse R., Samuel Resnick, and Terry Magnuson. "Genome-wide transcriptional regulation mediated by biochemically distinct SWI/SNF complexes." PLoS genetics 11.12 (2015): e1005748.
+
 [3]Chalkley, G. E., Moshkin, Y. M., Langenberg, K., Bezstarosti, K., Blastyak, A., Gyurkovics, H., Demmers, J. A., & Verrijzer, C. P. (2008). The transcriptional coactivator SAYP is a trithorax group signature subunit of the PBAP chromatin remodeling complex. Molecular and cellular biology, 28(9), 2920–2929.
 
 Таблица до логарифмирования evalue:
