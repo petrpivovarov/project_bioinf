@@ -1,0 +1,16 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+df = df.reindex(["human", "mouse", "zebrafish", "drosophila", "c.elegans", "ciliate", "yeast", "methanocaldococcus", "thermococcus", "e.coli", "tuberculosis"], axis=1)
+plt.figure(figsize=(10, 8))
+sns.heatmap(df, cmap='coolwarm')
+
+for i in range(df.shape[0]):
+    for j in range(df.shape[1]):
+        plt.text(j + 0.5, i + 0.5, f'{df.iloc[i, j]:.2f}', ha='center', va='center')
+
+plt.xlabel('Протеомы')
+plt.ylabel('Белки')
+
+plt.title('Тепловая карта')
+
+plt.show()
