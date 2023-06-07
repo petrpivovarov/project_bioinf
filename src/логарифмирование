@@ -1,0 +1,14 @@
+import numpy as np
+
+animals = ['human', 'mouse', 'zebrafish', 'drosophila', 'c.elegans', 'ciliate',
+           'yeast', 'methanocaldococcus', 'thermococcus', 'e.coli', 'tuberculosis']
+genes = ['H2A', 'H2B', 'H3', 'H4', 'ARID2']
+for gene in genes:
+  for animal in animals:
+    if df.at[gene,animal] < 1e-300:
+      df.at[gene,animal] = float(300)
+    else:
+      df.at[gene,animal] = float(-np.log10(df.at[gene,animal]))
+    if df.at[gene,animal] <0:
+      df.at[gene,animal] = float(0)
+    
