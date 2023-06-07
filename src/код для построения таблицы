@@ -1,0 +1,22 @@
+import pandas as pd
+
+
+def read_blast_output(output):
+
+
+    return pd.read_csv(output,
+                       sep="\t",
+                       names=["qseqid", "sseqid", "pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart",
+                              "send", "evalue", "bitscore"]
+                       )
+
+animals = ['human', 'mouse', 'zebrafish', 'drosophila', 'c.elegans', 'ciliate',
+           'yeast', 'methanocaldococcus', 'thermococcus', 'e.coli', 'tuberculosis']
+genes = ['H2A', 'H2B', 'H3', 'H4', 'ARID2']
+df = pd.DataFrame(columns=animals, index=genes, dtype = float)
+for gene in genes:
+  for animal in animals:
+    s = '/content/{0}-{1}.blast'.format(gene,animal)
+    d = read_blast_output(s)
+    value = d['evalue'].values[5]
+    df.loc[gene,animal] = float(value)
