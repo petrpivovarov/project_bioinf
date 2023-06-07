@@ -1,0 +1,13 @@
+# BLASTP 2.14.0+
+# Query: NP 733759.1 H2BC1 organism=Homo sapiens GeneID=255626
+# Database: /mnt/storage/project_2023/proteomes/thermococcus.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+NP	WP_011250518.1	37.143	70	24	3	68	121	284	349	0.17	27.3
+NP	WP_011249682.1	23.333	60	45	1	28	87	142	200	1.1	24.6
+NP	WP_011248963.1	32.500	40	26	1	42	81	271	309	7.9	22.3
+NP	WP_011250780.1	52.632	19	9	0	55	73	264	282	8.2	22.3
+NP	WP_048053770.1	31.034	29	20	0	79	107	21	49	8.3	21.6
+NP	WP_011250884.1	35.135	37	21	1	35	68	206	242	9.0	21.9
+NP	WP_011250524.1	50.000	16	8	0	29	44	15	30	9.7	21.9
+# BLAST processed 1 queries

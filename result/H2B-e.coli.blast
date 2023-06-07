@@ -1,0 +1,10 @@
+# BLASTP 2.14.0+
+# Query: NP 733759.1 H2BC1 organism=Homo sapiens GeneID=255626
+# Database: /mnt/storage/project_2023/proteomes/e.coli.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+NP	NP_415248.1	35.417	48	26	2	44	87	352	398	1.8	25.0
+NP	NP_415107.1	37.500	40	23	1	88	127	292	329	4.0	24.3
+NP	NP_415288.1	26.923	52	30	2	4	49	258	307	5.8	23.5
+NP	NP_417366.1	24.590	61	46	0	16	76	320	380	8.5	23.1
+# BLAST processed 1 queries

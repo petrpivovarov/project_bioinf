@@ -1,0 +1,15 @@
+# BLASTP 2.14.0+
+# Query: NP 733759.1 H2BC1 organism=Homo sapiens GeneID=255626
+# Database: /mnt/storage/project_2023/proteomes/yeast.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 9 hits found
+NP	NP_010510.3	80.000	100	20	0	27	126	29	128	3.07e-57	172
+NP	NP_009553.1	80.000	100	20	0	27	126	29	128	4.12e-57	171
+NP	NP_013503.1	25.926	54	40	0	37	90	217	270	3.9	25.0
+NP	NP_014036.1	23.529	51	39	0	22	72	1429	1479	5.2	25.0
+NP	NP_010502.3	28.358	67	43	1	19	85	1167	1228	5.2	24.6
+NP	NP_011281.1	26.582	79	48	2	20	88	831	909	5.3	24.6
+NP	NP_011401.1	27.941	68	45	3	37	103	365	429	5.7	24.6
+NP	NP_012734.1	28.049	82	58	1	41	122	60	140	7.7	24.3
+NP	NP_012600.1	42.222	45	23	2	73	117	153	194	7.9	24.3
+# BLAST processed 1 queries

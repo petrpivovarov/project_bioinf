@@ -1,0 +1,13 @@
+# BLASTP 2.14.0+
+# Query: NP 734466.1 H2AC1 organism=Homo sapiens GeneID=221613
+# Database: /mnt/storage/project_2023/proteomes/tuberculosis.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+NP	NP_218411.1	44.000	25	14	0	98	122	916	940	0.40	27.3
+NP	NP_214515.1	32.653	49	28	1	28	76	212	255	0.58	26.6
+NP	NP_217573.1	26.667	60	44	0	43	102	183	242	1.9	25.0
+NP	NP_217831.1	29.032	62	43	1	17	77	236	297	2.1	25.0
+NP	NP_217483.1	76.923	13	3	0	60	72	107	119	5.1	23.9
+NP	NP_216182.1	50.000	22	10	1	20	41	391	411	6.0	23.5
+NP	NP_215167.1	32.558	43	24	1	31	68	140	182	8.5	23.1
+# BLAST processed 1 queries

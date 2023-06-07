@@ -1,0 +1,16 @@
+# BLASTP 2.14.0+
+# Query: NP 734466.1 H2AC1 organism=Homo sapiens GeneID=221613
+# Database: /mnt/storage/project_2023/proteomes/yeast.faa
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+NP	NP_010511.3	83.962	106	17	0	16	121	17	122	8.88e-63	186
+NP	NP_009552.1	83.962	106	17	0	16	121	17	122	8.88e-63	186
+NP	NP_014631.1	60.000	120	44	3	3	119	8	126	9.11e-37	120
+NP	NP_011086.3	22.826	92	71	0	20	111	47	138	1.50e-05	40.0
+NP	NP_015003.1	25.490	51	38	0	26	76	160	210	0.23	28.5
+NP	NP_012724.1	31.579	38	26	0	89	126	342	379	1.8	26.2
+NP	NP_011003.1	27.143	70	39	1	62	119	343	412	2.4	25.8
+NP	NP_015068.1	30.233	43	30	0	64	106	342	384	4.4	25.0
+NP	NP_013302.1	21.154	52	41	0	13	64	207	258	5.4	24.6
+NP	NP_683716.1	29.412	34	24	0	64	97	288	321	6.8	24.6
+# BLAST processed 1 queries
